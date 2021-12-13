@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: brown;
+  font-family: "Irish Grover", cursive;
+  letter-spacing: 3px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  color: white;
+}
+
+.weatherFrame {
+  height: 75vh;
+  width: 60%;
+  margin-top: 2%;
+  background-color: blue;
+}
+
+.weatherFrame .name {
+  margin: 4% 0 0 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.weatherFrame .name img {
+  margin-right: 1%;
+}
+
+.cur {
+  margin: 1%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.max-min {
+  height: 100%;
+  width: 12vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.max-min .max {
+  margin-right: 1%;
+}
+
+.temp {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.desc {
+  padding-left: 4%;
+}
+
+.desc,
+.feel,
+.wind,
+.direc {
+  width: 12vw;
+  margin: 2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.current-date {
+  background-color: crimson;
+  height: 30px;
+  width: 50%;
+  margin: 2% 25%;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-forecast {
+ font-size: 1vw;
+  display: flex;
+  flex-flow: row;
+  background-color: darkblue;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  height: 30vh;
+  width: 90%;
+  margin: 0 0 0 5%;
+}
+
+.forecast{
+    font-size: 1vw;
+    letter-spacing: 1px;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
